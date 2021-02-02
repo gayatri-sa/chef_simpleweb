@@ -1,5 +1,5 @@
 # Clone a website from a GitHub repo into the appropriate folder
-#resource_name :website_from_git # deprecated. Now the resource name is taken from the <cookbookname>_<filename>
+# resource_name :website_from_git # deprecated. Now the resource name is taken from the <cookbookname>_<filename>
 
 property :repo_name, String, name_property: true
 property :folder_name, String, default: ''
