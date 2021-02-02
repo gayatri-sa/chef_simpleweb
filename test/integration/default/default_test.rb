@@ -1,4 +1,4 @@
-# InSpec test for recipe simple_aspnet::default
+# InSpec test for recipe simpleweb::default
 
 # The InSpec reference, with examples and extensive documentation, can be
 # found at https://docs.chef.io/inspec/resources/

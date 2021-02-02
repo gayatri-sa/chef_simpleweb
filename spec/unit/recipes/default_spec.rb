@@ -1,12 +1,12 @@
 #
-# Cookbook:: simple_aspnet
+# Cookbook:: simpleweb
 # Spec:: default
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'simple_aspnet::default' do
+describe 'simpleweb::default' do
   context 'When all attributes are default, on Ubuntu 20.04' do
     # for a complete list of available platforms and versions see:
     # https://github.com/chefspec/fauxhai/blob/master/PLATFORMS.md

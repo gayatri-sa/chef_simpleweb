@@ -4,13 +4,13 @@
 # https://docs.chef.io/policyfile/
 
 # A name that describes what the system you're building with Chef does.
-name 'simple_aspnet'
+name 'simpleweb'
 
 # Where to find external cookbooks:
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list 'simple_aspnet::default'
+run_list 'simpleweb::default'
 
 # Specify a custom source for a single cookbook:
-cookbook 'simple_aspnet', path: '.'
+cookbook 'simpleweb', path: '.'

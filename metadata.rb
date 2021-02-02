@@ -1,8 +1,8 @@
-name 'simple_aspnet'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+name 'simpleweb'
+maintainer 'Gayatri S Ajith'
+maintainer_email 'gayatri@schogini.com'
 license 'All Rights Reserved'
-description 'Installs/Configures simple_aspnet'
+description 'Installs/Configures simpleweb'
 version '0.1.0'
 chef_version '>= 15.0'
 
@@ -10,10 +10,10 @@ chef_version '>= 15.0'
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when
 # uploaded to a Supermarket.
 #
-# issues_url 'https://github.com/<insert_org_here>/simple_aspnet/issues'
+# issues_url 'https://github.com/<insert_org_here>/simpleweb/issues'
 
 # The `source_url` points to the development repository for this cookbook.  A
 # `View Source` link will be displayed on this cookbook's page when uploaded to
 # a Supermarket.
 #
-# source_url 'https://github.com/<insert_org_here>/simple_aspnet'
+# source_url 'https://github.com/<insert_org_here>/simpleweb'

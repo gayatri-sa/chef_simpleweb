@@ -1,6 +1,6 @@
-# simple_aspnet CHANGELOG
+# simpleweb CHANGELOG
 
-This file is used to list changes made in each version of the simple_aspnet cookbook.
+This file is used to list changes made in each version of the simpleweb cookbook.
 
 ## 0.1.0
 
