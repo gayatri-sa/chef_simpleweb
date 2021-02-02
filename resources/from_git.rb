@@ -1,6 +1,5 @@
 # Clone a website from a GitHub repo into the appropriate folder
-
-# resource_name :website_from_git # deprecated. Now the resource name is taken from the filename
+#resource_name :website_from_git # deprecated. Now the resource name is taken from the <cookbookname>_<filename>
 
 property :repo_name, String, name_property: true
 property :folder_name, String, default: ''
@@ -21,6 +20,7 @@ action :create do
   folder = "#{root_folder}#{new_resource.folder_name}"
   directory "#{folder}" do
     action :delete
+    recursive true
     only_if { ::File.directory?("#{folder}") }
   end
 

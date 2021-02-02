@@ -4,7 +4,11 @@
 #
 # Copyright:: 2021, The Authors, All Rights Reserved.
 
-website_from_git 'https://github.com/schogini/customweb', 'simple'
+include_recipe 'git'
+
+simpleweb_from_git 'https://github.com/schogini/customweb' do
+  folder_name 'simple'
+end
 
 # remote_directory 'Copy .Net Project' do
 #   source 'simple_db_dot_net'
