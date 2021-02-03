@@ -5,3 +5,8 @@ Here we have created a custom resource in chef to correctly identify the folder 
 
 TODO: Enter the cookbook description here.
 
+Cookbook for multiple platforms
+https://blog.alanthatcher.io/chef-cookbook-for-multiple-platforms/
+
+Correct way to check platform
+https://docs.chef.io/infra_language/#platform-family

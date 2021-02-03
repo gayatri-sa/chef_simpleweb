@@ -1,5 +1,7 @@
 # Clone a website from a GitHub repo into the appropriate folder
-# resource_name :website_from_git # deprecated. Now the resource name is taken from the <cookbookname>_<filename>
+# resource_name :website_from_git # deprecated. Now the resource name is taken from the <cookbookname>_<filename> OR you need to you provides (check link)
+# https://docs.chef.io/dsl_custom_resource/#provides
+# https://docs.chef.io/custom_resources/#recipe
 
 property :repo_name, String, name_property: true
 property :folder_name, String, default: ''
