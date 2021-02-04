@@ -10,3 +10,6 @@ https://blog.alanthatcher.io/chef-cookbook-for-multiple-platforms/
 
 Correct way to check platform
 https://docs.chef.io/infra_language/#platform-family
+
+Download the git cookbook from the supermarket
+knife supermarket download git

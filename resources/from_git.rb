@@ -30,6 +30,7 @@ action :create do
   git 'get_repo' do
     destination "#{folder}" # If not specified then, it will clone to /git_repo No trailing /
     repository new_resource.repo_name
+    action :checkout
     not_if { ::File.directory?("#{folder}") }
   end
 end
